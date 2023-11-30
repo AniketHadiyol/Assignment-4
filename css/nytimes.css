@@ -1,0 +1,96 @@
+/* CSS for New York Times API example with Gradient Background */
+
+/* General Reset and Styling */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background: linear-gradient(to bottom, #fc4848, #f8f8f8);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Wrapper Styles with Gradient Background */
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #ffffff, #e6e6e6); /* Gradient background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], 
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #d80c0c;
+}
+
+/* Results Section Styles */
+section {
+    margin-top: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article a {
+    color: #333;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .wrapper {
+        width: 100%;
+        padding: 10px;
+    }
+}

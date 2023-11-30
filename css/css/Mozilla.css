@@ -1,0 +1,47 @@
+/* CSS for Web APIs Assignment */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Clean, readable font */
+    background: linear-gradient(to bottom,#fd6585, #0d25b9); /* Light grey background for soft contrast */
+    margin: 0;
+    padding: 20px;
+    color: rgb(242, 255, 0); /* Dark grey text for readability */
+}
+
+h1 {
+    color: rgb(242, 255, 0); /* Slightly blue color for the header */
+    text-align: center; /* Center-align the header */
+}
+
+p {
+    font-size: 1em; /* Standard font size for paragraphs */
+    line-height: 1.5; /* Spacing for readability */
+}
+
+/* Section Styles */
+section {
+    color: rgb(242, 255, 0);  /* White background for the content area */
+    padding: 20px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #0d25b9,#fd6585); /* Subtle shadow for depth */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* Image Styles */
+img {
+    max-width: 100%; /* Responsive image size */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Block display to fit the width of the section */
+    margin: 0 auto 20px; /* Center align and margin at the bottom */
+}
+
+/* Link Styles */
+a {
+    color: #0078d7; /* Link color matching the header */
+    text-decoration: none; /* No underline for a clean look */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for interactivity */
+}

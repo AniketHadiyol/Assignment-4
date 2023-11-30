@@ -1,0 +1,9 @@
+html {
+    font-family: sans-serif;
+   }
+   
+   #map {
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(to right, #191515, #cccccc);
+   }

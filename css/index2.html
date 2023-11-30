@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Web APIs | COMP1073 Client-Side JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="css/normalize.css" rel="stylesheet" />
+	<link href="css/Mozilla.css" rel="stylesheet" />
+</head>
+
+<body>
+	<!-- Main Heading Section -->
+	<h1>Web <abbr title="Application Programming Interface">API</abbr>s</h1>
+	<!-- Introduction Paragraph -->
+	<p>There are many Application Programming Interfaces (<abbr title="Application Programming Interface">API</abbr>s) that are built on top of the core JavaScript language. These tools give you the ability to build some very powerful functionality without adding a lot of extra code.</p>
+	
+	<!-- Image Section with Mozilla Link -->
+	<section>
+		<img src="https://th.bing.com/th/id/OIP.aIqZcRdYDAvh3Rob2pytEwHaHG?rs=1&pid=ImgDetMain" alt="A red Tyrannosaurus Rex: A two-legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.">
+		<p>Here we will add a link to the <a href="https://www.mozilla.org/">Mozilla homepage</a></p>
+	</section>
+	
+	<!-- JavaScript Section -->
+	<script>
+		/* 
+		 * STEP 2a: Select an element inside the DOM and store a reference to it inside a variable
+		 * Here, we are selecting the first 'a' (anchor) element in the document and storing it in the 'link' variable.
+		 */
+		var link = document.querySelector('a');
+		
+		/* 
+		 * STEP 2b: Update the text node inside the link by changing the Node.textContent property
+		 * Now, we are updating the text content of the link to display 'MDN HOMEPAGE'.
+		 */
+		link.textContent = 'MDN HOMEPAGE';
+		
+		/* 
+		 * STEP 2c: Change the URL by updating the href attribute node
+		 * Here, we are changing the URL of the link to 'https://www.mozilla.org/'.
+		 */
+		link.href = 'https://www.mozilla.org/';
+		
+		// This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
+	</script>
+</body>
+</html>
